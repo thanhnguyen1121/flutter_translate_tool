@@ -1,16 +1,17 @@
-# demo_deep_link
+# Flutter translate tool
 
-A new Flutter project.
+This template base on Flutter 3.22.0
+
+## NOTE: Project now only support macos.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+-   Input file is only json file
+-   Input language need select one of list languages
+-   Output language you can select multiple language
 
-A few resources to get you started if this is your first Flutter project:
+## How to run:
+    `flutter run -d  macOS`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
