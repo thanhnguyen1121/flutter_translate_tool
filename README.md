@@ -1,6 +1,7 @@
 # Flutter translate tool
 
-This template base on Flutter 3.22.0
+This project base on Flutter 3.22.0
+This project helps you translate the value of a json file into the language you need 
 
 ## NOTE: Project now only support macos.
 
@@ -11,7 +12,9 @@ This template base on Flutter 3.22.0
 -   Output language you can select multiple language
 
 ## How to run:
-    `flutter run -d  macOS`
+```
+    flutter run -d  macOS
+```
 
 
 
