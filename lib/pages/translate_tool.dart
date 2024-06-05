@@ -199,11 +199,12 @@ class _TranslateToolState extends State<TranslateTool> {
 
       for (var element in data.entries.toList()) {
         try {
-          final translatorResult = await translator.translate(element.key, from: inputCode, to: outputCode);
+          final translatorResult = await translator.translate(element.value, from: inputCode, to: outputCode);
           final valueTranslate = translatorResult.text;
           result.putIfAbsent(element.key, () => valueTranslate);
           log("message (${element.key}, ${element.value}) ==> (${element.key},$valueTranslate)", name: "TranslateTool");
         } catch (exception) {
+          result.putIfAbsent(element.key, () => element.value);
           log("message exception: $exception", name: "TranslateTool");
         }
       }
